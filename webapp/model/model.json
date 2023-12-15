@@ -1,0 +1,70 @@
+{ "Product": [ 
+	{
+		"ProductId": "HT-1000",
+		"ServiceParameter": "Service type",
+        "ParentId":""
+
+	},
+	{
+		"ProductId": "HT-1001",
+        "ServiceParameter": "Annual turnover quantity",
+        "ParentId":""
+		
+	},
+    {
+		"ProductId": "HT-1002",
+        "ServiceParameter": "Annual Volume Deficiency",
+        "ParentId":""
+		
+	},
+    {
+		"ProductId": "HT-1003",
+        "ServiceParameter": "Authorized Volume",
+        "ParentId":""
+		
+	},
+    {
+		"ProductId": "HT-1004",
+        "ServiceParameter": "Banked Gas Account",
+        "ParentId":""
+		
+	},
+    {
+		"ProductId": "HT-1005",
+        "ServiceParameter": "Billing Contract Demand",
+        "ParentId":""
+		
+	},
+    {
+		"ProductId": "HT-1006",
+        "ServiceParameter": "Billing Month",
+        "ParentId":""
+		
+	},
+    {
+		"ProductId": "HT-1007",
+        "ServiceParameter": "Buy/ Sell Price",
+        "ParentId":""
+		
+	},
+    {
+		"ProductId": "HT-1008",
+        "ServiceParameter": "Commodity Charge",
+        "ParentId":""
+		
+	},
+    {
+		"ProductId": "HT-1009",
+        "ServiceParameter": "Allocation Profile",
+        "ParentId":""
+		
+	},
+    {
+		"ProductId": "HT-1010",
+        "ServiceParameter": "Rank",
+        "ParentId":""
+		
+	}
+]
+}
+	

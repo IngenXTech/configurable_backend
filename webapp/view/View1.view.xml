@@ -1,0 +1,62 @@
+<mvc:View controllerName="project1.controller.View1" xmlns:mvc="sap.ui.core.mvc" displayBlock="true" xmlns="sap.m">
+    <Page id="page" title="{i18n>title}" showHeader="true" enableScrolling="true" class="sapUiContentPadding">
+    <content>
+    <Button id="_IDGenButton1" text="Submit"/>
+    <Button id="_IDGenButton2" text="Create" icon="sap-icon://add" press="onCreatePress"/>
+    <Button id="editButton" text="Edit" type="Transparent" press="onEdit"/>
+		<Button id="saveButton" text="Save" type="Transparent" press="onSave" visible="false"/>
+		<Button id="cancelButton" text="Cancel" type="Transparent" press="onCancel" visible="false"/><Panel id="p2" class="vsplandetails">
+          <Table id="_IDGenTable2" class="inner_tabel" items="{/Product}">
+            <columns>
+              <Column id="_IDGenColumn20" width="10rem">
+                  <Label id="_IDGenLabel36" text="Service Parameter" textAlign="Initial"/>
+              </Column>
+              <Column id="_IDGenColumn21" width="10rem">
+                  <Label id="_IDGenLabel37" text="ID" textAlign="Begin"/>
+              </Column>
+              <Column id="_IDGenColumn22" width="10rem">
+                  <Label id="_IDGenLabel38" text="Parent ID" textAlign="Begin"/>
+              </Column>
+              <Column id="_IDGenColumn23" width="10rem">
+                  <Label id="_IDGenLabel39" text="Contract Relevant" textAlign="Begin"/>
+              </Column>
+              <Column id="_IDGenColumn24" width="10rem">
+                  <Label id="_IDGenLabel40" text="Quality Parameter" textAlign="Begin"/>
+              </Column>
+              <Column id="_IDGenColumn25" width="10rem">
+                  <Label id="_IDGabel41" text="Threshhold Relevance" textAlign="Begin"/>
+              </Column>
+              <Column id="_IDGenColumn26" width="10rem">
+                  <Label id="_IDGabel42" text="Refrrence Relevant" textAlign="Begin"/>
+              </Column>
+              <Column id="_IDGenColumn27" width="10rem">
+                  <Label id="_IDGabel43" text="Nomination Relevant" textAlign="Begin"/>
+              </Column>
+              <Column id="_IDGenColumn28" width="10rem">
+                  <Label id="_IDGabel44" text="Balancing Relevant" textAlign="Begin"/>
+              </Column>
+              <Column id="_IDGenColumn29" width="10rem">
+                  <Label id="_IDGabel45" text="Allocation Relevant" textAlign="Begin"/>
+              </Column>
+              <Column id="_IDGenColumn30" width="10rem">
+                  <Label id="_IDGebel46" text="Billing Relevant" textAlign="Begin"/>
+              </Column>
+              <Column id="_IDGolumn31" width="10rem">
+                  <Label id="_IDGenLabel47" text="Price Relevant" textAlign="Begin"/>
+              </Column>
+            </columns>
+            <items>
+              <ColumnListItem id="_IDGenColumnListItem5">
+                  <cells>
+                    <ObjectIdentifier id="_IDGenObjectIdentifier1" title="{ServiceParameter}"/>
+                    <ObjectNumber id="_IDGenObjectIdentifier2" number="{ProductId}"/>
+                    <ObjectIdentifier id="_IDGenObjectIdentifier3" title="{ParentId}"/>
+                  </cells>
+              </ColumnListItem>
+            </items>
+          </Table>
+      </Panel>
+     </content>
+     
+    </Page>
+</mvc:View>
